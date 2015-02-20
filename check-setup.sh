@@ -142,7 +142,7 @@ then
   fi
 
   # current lab hardcoded
-  node_status=$(cd lab7;npm ls 2>&1)
+  node_status=$(cd lab71;npm ls 2>&1)
 
   if [[ $node_status == *"UNMET DEPENDENCY"* ]]
   then
